@@ -1,0 +1,11 @@
+.featurette {
+    margin: 10pc 4pc 0 4pc;
+    padding: 1pc;
+    background: rgba(108, 234, 196, 0.19);
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    justify-content: center;
+    align-items: center;
+}

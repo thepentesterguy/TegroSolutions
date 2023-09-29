@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: rgba(24, 245, 192, 0.21);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+}
+
+#navbarNav {
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+body {
+    background: url(./Images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: fill;
+    font-family: 'Roboto Slab', serif;
+}
+
+#landing {
+    margin: 10pc 0 0 0;
+}
+
+.greetText {
+    color: #baffd3;
+    font-family: 'Black Ops One', cursive;
+}
+
+.greetText1 {
+    font-size: 3rem;
+}
+
+.greetText2 {
+    font-size: 2rem;
+}
+
+.card {
+    /* margin: 75px 50px 50px 50px; */
+    color: aliceblue;
+    background: rgba(24, 245, 192, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2pc;
+}
+
+.btn:hover {
+    background: rgba(24, 245, 192, 0.21);
+    border-radius: 2pc;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+}
+
+footer {
+    background: rgba(24, 245, 192, 0.21);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+    color: white;
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+}
+
+.greetText1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    font-size: 50px;
+    text-shadow: 0px 20px 8px rgba(13, 11, 11, 0.4);
+    font-weight: bold;
+}
